@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeevitha K | Full Stack Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&family=Space+Grotesk:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-logo">JK</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <canvas id="heroCanvas"></canvas>
+    <div class="hero-content">
+      <h1 class="hero-name">
+        <span class="name-line-1">Jeevitha K</span>
+        <span class="name-line-2">Full Stack<br>Developer</span>
+      </h1>
+      <p class="hero-tagline">Passionate about building user-friendly applications<br>and solving real-world problems through clean, efficient<br>code.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-secondary">Get In Touch</a>
+      </div>
+      <div class="hero-scroll-hint">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </div>
+    <div class="hero-3d-wrapper">
+      <!-- Dashed orbit ring -->
+      <div class="hero-orbit-ring"></div>
+
+      <!-- Profile photo circle -->
+      <div class="hero-photo-circle">
+        <img src="profile.jpeg" alt="Jeevitha K" />
+      </div>
+
+      <!-- Floating info cards -->
+      <div class="hero-float-card card-edu">
+        <div class="hfc-icon" style="background:#5b21b6;">🎓</div>
+        <div class="hfc-text">
+          <span class="hfc-label">Education</span>
+          <span class="hfc-value">B.Tech IT</span>
+        </div>
+      </div>
+
+      <div class="hero-float-card card-build">
+        <div class="hfc-icon" style="background:#7c3aed;">🚀</div>
+        <div class="hfc-text">
+          <span class="hfc-value">Building</span>
+        </div>
+      </div>
+
+      <div class="hero-float-card card-status">
+        <div class="hfc-icon" style="background:#22c55e;">✨</div>
+        <div class="hfc-text">
+          <span class="hfc-label">Status</span>
+          <span class="hfc-value">Open to Work</span>
+        </div>
+      </div>
+
+      <!-- Small decorative dots -->
+      <div class="hero-dot dot-blue"></div>
+      <div class="hero-dot dot-yellow"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="section-container">
+      <div class="section-label">01 / About</div>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-card card-3d">
+          <div class="about-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-core">JK</div>
+          </div>
+          <div class="about-text">
+            <p>Passionate Full Stack Web Developer currently pursuing B.Tech in Information Technology at Mailam Engineering College, Villupuram. I thrive on building engaging, user-friendly applications and am always looking to improve my problem-solving skills.</p>
+            <p>Seeking an opportunity in a reputed MNC to apply technical knowledge and grow as a software professional.</p>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-box card-3d">
+            <span class="stat-num" data-target="8.45" data-decimal="2">0</span>
+            <span class="stat-unit">CGPA</span>
+            <span class="stat-label">B.Tech IT</span>
+          </div>
+          <div class="stat-box card-3d">
+            <span class="stat-num" data-target="81">0</span>
+            <span class="stat-unit">%</span>
+            <span class="stat-label">HSC Score</span>
+          </div>
+          <div class="stat-box card-3d">
+            <span class="stat-num" data-target="5">0</span>
+            <span class="stat-unit">+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-box card-3d">
+            <span class="stat-num" data-target="4">0</span>
+            <span class="stat-unit">+</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <canvas id="skillsCanvas"></canvas>
+    <div class="section-container">
+      <div class="section-label">02 / Skills</div>
+      <h2 class="section-title">Technical Arsenal</h2>
+      <div class="skills-grid">
+        <div class="skill-orb card-3d" data-skill="Java">
+          <div class="orb-icon">☕</div>
+          <span>Java</span>
+        </div>
+        <div class="skill-orb card-3d" data-skill="Python">
+          <div class="orb-icon">🐍</div>
+          <span>Python</span>
+        </div>
+        <div class="skill-orb card-3d" data-skill="C">
+          <div class="orb-icon">⚙️</div>
+          <span>C</span>
+        </div>
+        <div class="skill-orb card-3d" data-skill="SQL">
+          <div class="orb-icon">🗃️</div>
+          <span>SQL</span>
+        </div>
+        <div class="skill-orb card-3d" data-skill="HTML">
+          <div class="orb-icon">🌐</div>
+          <span>HTML</span>
+        </div>
+        <div class="skill-orb card-3d" data-skill="CSS">
+          <div class="orb-icon">🎨</div>
+          <span>CSS</span>
+        </div>
+        <div class="skill-orb card-3d" data-skill="Git">
+          <div class="orb-icon">🔀</div>
+          <span>Git</span>
+        </div>
+        <div class="skill-orb card-3d" data-skill="GitHub">
+          <div class="orb-icon">🐙</div>
+          <span>GitHub</span>
+        </div>
+      </div>
+      <div class="soft-skills">
+        <h3>Soft Skills</h3>
+        <div class="soft-skills-list">
+          <span class="soft-tag">Leadership</span>
+          <span class="soft-tag">Problem Solving</span>
+          <span class="soft-tag">Adaptability</span>
+          <span class="soft-tag">Teamwork</span>
+          <span class="soft-tag">Decision Making</span>
+          <span class="soft-tag">Time Management</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="section-container">
+      <div class="section-label">03 / Projects</div>
+      <h2 class="section-title">What I've Built</h2>
+      <div class="projects-grid">
+
+        <div class="project-card card-3d featured">
+          <div class="project-glow"></div>
+          <div class="project-tag">Hardware · IoT</div>
+          <h3>Arduino-Based Industrial Waste Gas Monitor</h3>
+          <p>An industrial application using Arduino hardware to detect and monitor waste gas levels in industrial environments — helping improve safety and reduce environmental impact.</p>
+          <div class="project-meta">
+            <span class="project-date">📅 Feb 2024</span>
+            <span class="project-type">Industrial Application</span>
+          </div>
+          <div class="project-chips">
+            <span>Arduino</span>
+            <span>Sensors</span>
+            <span>Embedded C</span>
+          </div>
+        </div>
+
+        <div class="project-card card-3d">
+          <div class="project-glow"></div>
+          <div class="project-tag">Web · Mini Project</div>
+          <h3>Simple Quiz App</h3>
+          <p>An interactive quiz application with dynamic question rendering, score tracking, and a clean user interface built for an engaging experience.</p>
+          <div class="project-chips">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card card-3d">
+          <div class="project-glow"></div>
+          <div class="project-tag">Web · Mini Project</div>
+          <h3>Online Voting System</h3>
+          <p>A secure online voting platform with candidate listing, vote casting, and result display features, designed with data integrity in mind.</p>
+          <div class="project-chips">
+            <span>Java</span><span>SQL</span><span>HTML</span>
+          </div>
+        </div>
+
+        <div class="project-card card-3d">
+          <div class="project-glow"></div>
+          <div class="project-tag">Analytics · Mini Project</div>
+          <h3>Placement Strategy Analyzer</h3>
+          <p>A data-driven tool that analyzes placement trends and suggests personalized strategies for students to improve their placement readiness.</p>
+          <div class="project-chips">
+            <span>Python</span><span>Data Analysis</span><span>SQL</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <canvas id="expCanvas"></canvas>
+    <div class="section-container">
+      <div class="section-label">04 / Experience</div>
+      <h2 class="section-title">My Journey</h2>
+      <div class="timeline">
+
+        <div class="timeline-item card-3d">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-type">Internship</div>
+            <h3>Python with Data Science</h3>
+            <p class="timeline-org">Gateway Software Solutions</p>
+            <p>Gained hands-on experience with Python for data science workflows including data processing, analysis, and visualization techniques.</p>
+            <span class="timeline-date">July 2025</span>
+          </div>
+        </div>
+
+        <div class="timeline-item card-3d">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-type">Internship</div>
+            <h3>Cybersecurity Fundamentals &amp; Threat Analysis</h3>
+            <p class="timeline-org">Professional Training</p>
+            <p>Learned core cybersecurity concepts, threat identification, vulnerability assessment, and best practices for securing systems and applications.</p>
+            <span class="timeline-date">Dec 2025</span>
+          </div>
+        </div>
+
+        <div class="timeline-item card-3d">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-type">Workshop</div>
+            <h3>Full Stack Design in AI</h3>
+            <p class="timeline-org">CADD Centre</p>
+            <p>Participated in a comprehensive workshop covering full-stack design principles enhanced with AI-driven development methodologies.</p>
+            <span class="timeline-date">Mar 2025</span>
+          </div>
+        </div>
+
+        <div class="timeline-item card-3d">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-type">Workshop</div>
+            <h3>Build Your Own Generative AI Model</h3>
+            <p class="timeline-org">NXT WAVE</p>
+            <p>Hands-on workshop focused on building generative AI models from scratch, exploring architectures, training pipelines, and real-world applications.</p>
+            <span class="timeline-date">Mar 2025</span>
+          </div>
+        </div>
+
+        <div class="timeline-item card-3d">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-type">Value Added Course</div>
+            <h3>Data Analytics &amp; Data Visualization Tools</h3>
+            <p class="timeline-org">BIT</p>
+            <p>Completed a value-added course introducing key data analytics concepts and hands-on experience with visualization tools for data-driven insights.</p>
+            <span class="timeline-date">Aug 2025</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications">
+    <div class="section-container">
+      <div class="section-label">05 / Certifications</div>
+      <h2 class="section-title">Achievements &amp; Certifications</h2>
+      <div class="cert-grid">
+
+        <div class="cert-card card-3d">
+          <div class="cert-badge">🏆</div>
+          <h3>Oracle Certification</h3>
+          <p>Certified by Oracle — demonstrating strong foundational knowledge in Oracle technologies and database management.</p>
+          <span class="cert-date">May 2025</span>
+        </div>
+
+        <div class="cert-card card-3d">
+          <div class="cert-badge">🎓</div>
+          <h3>Joy of Computing using Python</h3>
+          <p>NPTEL certification from IIT Madras — scored 71%, covering Python programming fundamentals and computational thinking.</p>
+          <span class="cert-date">2025</span>
+          <div class="cert-issuer">IIT Madras · NPTEL</div>
+        </div>
+
+        <div class="cert-card card-3d">
+          <div class="cert-badge">💻</div>
+          <h3>Java Programming Fundamentals</h3>
+          <p>Completed Java Programming Fundamentals course through Infosys Springboard, covering core Java concepts and OOP principles.</p>
+          <span class="cert-date">Jul 2025</span>
+          <div class="cert-issuer">Infosys Springboard</div>
+        </div>
+
+        <div class="cert-card card-3d">
+          <div class="cert-badge">🥊</div>
+          <h3>Hackathon Participant</h3>
+          <p>Active participant in multiple Inter &amp; Intra College Hackathons, applying technical skills to solve real-world problems under time pressure.</p>
+          <span class="cert-date">2024 – 2025</span>
+          <div class="cert-issuer">Inter &amp; Intra College</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <canvas id="contactCanvas"></canvas>
+    <div class="section-container">
+      <div class="section-label">06 / Contact</div>
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="contact-subtitle">Open to internship opportunities and collaborations. Feel free to reach out!</p>
+      <div class="contact-grid">
+        <a href="mailto:jeevitha.k2403@gmail.com" class="contact-card card-3d">
+          <div class="contact-icon">✉️</div>
+          <h3>Email</h3>
+          <p>jeevitha.k2403@gmail.com</p>
+        </a>
+        <a href="tel:+919361432796" class="contact-card card-3d">
+          <div class="contact-icon">📞</div>
+          <h3>Phone</h3>
+          <p>+91 9361432796</p>
+        </a>
+        <a href="https://linkedin.com/in/jeevitha.k" target="_blank" class="contact-card card-3d">
+          <div class="contact-icon">💼</div>
+          <h3>LinkedIn</h3>
+          <p>linkedin.com/in/jeevitha.k</p>
+        </a>
+        <a href="https://github.com/Jeevi1424" target="_blank" class="contact-card card-3d">
+          <div class="contact-icon">🐙</div>
+          <h3>GitHub</h3>
+          <p>github.com/Jeevi1424</p>
+        </a>
+      </div>
+      <div class="location-badge">
+        <span>📍</span> Villupuram, Tamil Nadu
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Designed &amp; Built by <span>Jeevitha K</span> · Full Stack Java Developer</p>
+    <p class="footer-sub">B.Tech IT · Mailam Engineering College · 2023–2027</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
