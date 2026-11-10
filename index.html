@@ -46,8 +46,10 @@
       </div>
     </div>
     <div class="hero-3d-wrapper">
-      <!-- Dashed orbit ring -->
+      <!-- Orbit rings -->
       <div class="hero-orbit-ring"></div>
+      <div class="hero-orbit-ring-2"></div>
+      <div class="hero-orbit-ring-3"></div>
 
       <!-- Profile photo circle -->
       <div class="hero-photo-circle">
@@ -56,7 +58,7 @@
 
       <!-- Floating info cards -->
       <div class="hero-float-card card-edu">
-        <div class="hfc-icon" style="background:#5b21b6;">🎓</div>
+        <div class="hfc-icon" style="background:linear-gradient(135deg,#5b21b6,#7c3aed);">🎓</div>
         <div class="hfc-text">
           <span class="hfc-label">Education</span>
           <span class="hfc-value">B.Tech IT</span>
@@ -64,14 +66,14 @@
       </div>
 
       <div class="hero-float-card card-build">
-        <div class="hfc-icon" style="background:#7c3aed;">🚀</div>
+        <div class="hfc-icon" style="background:linear-gradient(135deg,#ea580c,#f97316);">🚀</div>
         <div class="hfc-text">
           <span class="hfc-value">Building</span>
         </div>
       </div>
 
       <div class="hero-float-card card-status">
-        <div class="hfc-icon" style="background:#22c55e;">✨</div>
+        <div class="hfc-icon" style="background:linear-gradient(135deg,#16a34a,#22c55e);">✨</div>
         <div class="hfc-text">
           <span class="hfc-label">Status</span>
           <span class="hfc-value">Open to Work</span>
@@ -112,7 +114,7 @@
             <span class="stat-label">HSC Score</span>
           </div>
           <div class="stat-box card-3d">
-            <span class="stat-num" data-target="5">0</span>
+            <span class="stat-num" data-target="4">0</span>
             <span class="stat-unit">+</span>
             <span class="stat-label">Projects</span>
           </div>
@@ -189,47 +191,56 @@
 
         <div class="project-card card-3d featured">
           <div class="project-glow"></div>
-          <div class="project-tag">Hardware · IoT</div>
-          <h3>Arduino-Based Industrial Waste Gas Monitor</h3>
-          <p>An industrial application using Arduino hardware to detect and monitor waste gas levels in industrial environments — helping improve safety and reduce environmental impact.</p>
-          <div class="project-meta">
-            <span class="project-date">📅 Feb 2024</span>
-            <span class="project-type">Industrial Application</span>
-          </div>
-          <div class="project-chips">
-            <span>Arduino</span>
-            <span>Sensors</span>
-            <span>Embedded C</span>
-          </div>
-        </div>
-
-        <div class="project-card card-3d">
-          <div class="project-glow"></div>
-          <div class="project-tag">Web · Mini Project</div>
-          <h3>Simple Quiz App</h3>
-          <p>An interactive quiz application with dynamic question rendering, score tracking, and a clean user interface built for an engaging experience.</p>
-          <div class="project-chips">
-            <span>HTML</span><span>CSS</span><span>JavaScript</span>
-          </div>
-        </div>
-
-        <div class="project-card card-3d">
-          <div class="project-glow"></div>
-          <div class="project-tag">Web · Mini Project</div>
-          <h3>Online Voting System</h3>
-          <p>A secure online voting platform with candidate listing, vote casting, and result display features, designed with data integrity in mind.</p>
-          <div class="project-chips">
-            <span>Java</span><span>SQL</span><span>HTML</span>
-          </div>
-        </div>
-
-        <div class="project-card card-3d">
-          <div class="project-glow"></div>
-          <div class="project-tag">Analytics · Mini Project</div>
+          <div class="project-tag">Web · Full Stack</div>
           <h3>Placement Strategy Analyzer</h3>
-          <p>A data-driven tool that analyzes placement trends and suggests personalized strategies for students to improve their placement readiness.</p>
+          <p>A web-based voting application with voter and candidate management. Implemented weak-subject detection, learning recommendations and performance tracking.</p>
+          <div class="project-links">
+            <a href="#" target="_blank" class="project-link">🔗 PLA Link</a>
+          </div>
           <div class="project-chips">
-            <span>Python</span><span>Data Analysis</span><span>SQL</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+            <span>Python</span>
+          </div>
+        </div>
+
+        <div class="project-card card-3d">
+          <div class="project-glow"></div>
+          <div class="project-tag">Web · Full Stack</div>
+          <h3>CampusFix</h3>
+          <p>A full-stack campus complaint management system, enabling students to raise and track complaints. Implemented role-based access, complaint assignment, status tracking and priority management.</p>
+          <div class="project-links">
+            <a href="#" target="_blank" class="project-link">🔗 CampusFix</a>
+          </div>
+          <div class="project-chips">
+            <span>React</span><span>Node.js</span><span>MongoDB</span><span>JWT</span>
+          </div>
+        </div>
+
+        <div class="project-card card-3d">
+          <div class="project-glow"></div>
+          <div class="project-tag">Web · Full Stack</div>
+          <h3>Queueless</h3>
+          <p>A smart appointment and queue management system allowing users to book appointments and track their queue status.</p>
+          <div class="project-links">
+            <a href="#" target="_blank" class="project-link">🔗 Queueless</a>
+          </div>
+          <div class="project-chips">
+            <span>React</span><span>Node.js</span><span>MongoDB</span><span>Socket.io</span>
+          </div>
+        </div>
+
+        <div class="project-card card-3d">
+          <div class="project-glow"></div>
+          <div class="project-tag">Web · Full Stack</div>
+          <h3>SmartSpend</h3>
+          <p>A personal expense and budget management application. Implemented expense tracking, budget management, financial analytics, charts, JWT authentication, and secure password hashing.</p>
+          <div class="project-links">
+            <a href="#" target="_blank" class="project-link">🔗 SmartSpend</a>
+          </div>
+          <div class="project-chips">
+            <span>React</span><span>Node.js</span><span>MongoDB</span><span>Chart.js</span><span>JWT</span>
           </div>
         </div>
 
